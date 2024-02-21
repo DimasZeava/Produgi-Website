@@ -13,10 +13,14 @@
 }
 
 body {
-  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Staatliches", sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+section {
+  color: var(--third-color);
 }
 
 header.container-header {
@@ -99,107 +103,63 @@ header.container-header .nav-list li .button:hover {
   font-size: 1.2rem;
   color: var(--primary-color);
   font-weight: 600;
-  padding: 0.47rem 1.4rem;
+  padding: 0.5rem 1.81rem;
   text-shadow: 0 0 5px var(--primary-color);
 }
 
-header.container-header .nav-list li .button span {
-  position: absolute;
-  display: block;
+.hero {
+  height: 84vh;
   background-color: var(--primary-color);
-  box-shadow: 0 0 5px var(--primary-color);
+  flex: 1;
+  display: flex;
+  align-items: center;
 }
 
-header.container-header .nav-list li .button span:nth-child(1) {
-  left: 0;
-  top: 0;
-  width: 50.5%;
-  height: 1.5px;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.5s;
+.hero .content {
+  flex: 1 1;
 }
 
-header.container-header .nav-list li .button:hover span:nth-child(1) {
-  transform: scaleX(1);
-  transform-origin: right;
-}
-
-header.container-header .nav-list li .button span:nth-child(2) {
-  right: 0;
-  top: 0;
-  width: 50.5%;
-  height: 1.5px;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.5s;
-}
-
-header.container-header .nav-list li .button:hover span:nth-child(2) {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-header.container-header .nav-list li .button span:nth-child(3) {
-  right: 0;
-  top: 0;
-  width: 2px;
+.hero .content .title {
+  font-size: 3.7rem;
+  margin-block: 0.4rem;
   height: 100%;
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform 0.5s;
-  transition-delay: 0.4s;
+  width: 650px;
 }
 
-header.container-header .nav-list li .button:hover span:nth-child(3) {
-  transform: scaleY(1);
-  transform-origin: top;
-}
-
-header.container-header .nav-list li .button span:nth-child(4) {
-  left: 0;
-  top: 0;
-  width: 2px;
+.hero .content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
   height: 100%;
-  transform: scaleY(0);
-  transform-origin: bottom;
-  transition: transform 0.5s;
-  transition-delay: 0.4s;
+  width: 450px;
 }
 
-header.container-header .nav-list li .button:hover span:nth-child(4) {
-  transform: scaleY(1);
-  transform-origin: top;
+.hero .image-hero img {
+  width: 550px;
+  height: 100%;
+  margin: auto;
+  position: relative;
+  left: 70px;
 }
 
-header.container-header .nav-list li .button span:nth-child(5) {
-  left: 0;
-  bottom: 0;
-  width: 50.5%;
-  height: 2px;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.5s;
-  transition-delay: 0.8s;
+.hero .content .get-started {
+  width: 100%;
+  height: 75px;
 }
 
-header.container-header .nav-list li .button:hover span:nth-child(5) {
-  transform: scaleX(1);
-  transform-origin: left;
+.hero .content .button {
+  text-decoration: none;
+  background-color: var(--third-color);
+  padding: 0.6rem 2rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: var(--font-color);
+  font-weight: 500;
+  position: relative;
+  display: inline-block;
+  transition: all 0.5s ease;
 }
 
-header.container-header .nav-list li .button span:nth-child(6) {
-  right: 0;
-  bottom: 0;
-  width: 50.5%;
-  height: 2px;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.5s;
-  transition-delay: 0.8s;
-}
-
-header.container-header .nav-list li .button:hover span:nth-child(6) {
-  transform: scaleX(1);
-  transform-origin: right;
+.hero .content .button:hover {
+  font-size: 1.6rem;
 }

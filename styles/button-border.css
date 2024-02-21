@@ -1,0 +1,170 @@
+header.container-header .nav-list li .button span {
+  position: absolute;
+  display: block;
+  background-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+header.container-header .nav-list li .button span:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 50.5%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(1) {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+header.container-header .nav-list li .button span:nth-child(2) {
+  right: 0;
+  top: 0;
+  width: 50.5%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(2) {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+header.container-header .nav-list li .button span:nth-child(3) {
+  right: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(3) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+header.container-header .nav-list li .button span:nth-child(4) {
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.4s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+header.container-header .nav-list li .button span:nth-child(5) {
+  left: 0;
+  bottom: 0;
+  width: 50.5%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.8s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(5) {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+header.container-header .nav-list li .button span:nth-child(6) {
+  right: 0;
+  bottom: 0;
+  width: 50.5%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+  transition-delay: 0.8s;
+}
+
+header.container-header .nav-list li .button:hover span:nth-child(6) {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.hero .content .button span {
+  position: absolute;
+  display: block;
+  background-color: var(--font-color);
+  box-shadow: 0 0 5px var(--font-color);
+}
+
+.hero .content .button span:nth-child(1) {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+
+.hero .content .button:hover span:nth-child(1) {
+  transform: scaleX(1);
+  transform-origin: right;
+}
+
+.hero .content .button span:nth-child(2) {
+  left: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s;
+  transition-delay: 0.3s;
+}
+
+.hero .content .button:hover span:nth-child(2) {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+
+.hero .content .button span:nth-child(3) {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s;
+  transition-delay: 0.6s;
+}
+
+.hero .content .button:hover span:nth-child(3) {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.hero .content .button span:nth-child(4) {
+  right: 0;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.5s;
+  transition-delay: 0.9s;
+}
+
+.hero .content .button:hover span:nth-child(4) {
+  transform: scaleY(1);
+  transform-origin: bottom;
+}
