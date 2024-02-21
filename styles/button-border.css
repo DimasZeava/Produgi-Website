@@ -161,7 +161,7 @@ header.container-header .nav-list li .button:hover span:nth-child(6) {
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.5s;
-  transition-delay: 0.9s;
+  transition-delay: 1s;
 }
 
 .hero .content .button:hover span:nth-child(4) {
