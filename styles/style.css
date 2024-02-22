@@ -3,6 +3,7 @@
   --secondary-color: #3887be;
   --third-color: #38419d;
   --forth-color: #200e3a;
+  --font-family: "Staatliches", sans-serif;
   --font-color: #f3f3ff;
 }
 
@@ -15,7 +16,7 @@
 }
 
 body {
-  font-family: "Staatliches", sans-serif;
+  font-family: var(--font-family);
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -174,7 +175,30 @@ main .hero .content .button:hover {
   font-size: 1.6rem;
 }
 
-main .services {
+main .services,
+.about,
+.contact,
+.aside-content {
   height: 100vh;
+}
+
+main .services {
   background-color: var(--secondary-color);
+}
+
+main .about {
+  background-color: var(--third-color);
+}
+
+main .contact {
+  background-color: var(--primary-color);
+}
+
+main .aside-content {
+  background-color: var(--secondary-color);
+}
+
+footer.footer-container {
+  height: 25vh;
+  background-color: var(--forth-color);
 }
