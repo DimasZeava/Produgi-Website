@@ -204,7 +204,7 @@ main .hero .content .button:hover {
 
 main .services,
 .about,
-.contact,
+.our-content,
 .aside-content {
   height: 100vh;
 }
@@ -217,7 +217,7 @@ main .about {
   background-color: var(--third-color);
 }
 
-main .contact {
+main .our-content {
   background-color: var(--primary-color);
 }
 
@@ -226,6 +226,25 @@ main .aside-content {
 }
 
 footer.footer-container {
-  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20vh;
+  height: 80vh;
   background-color: var(--forth-color);
+}
+
+footer.footer-container .footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1366px;
+  margin-inline: auto;
+}
+
+footer.footer-container .footer-content .footer-logo img {
+  width: 100px;
+  height: auto;
 }
