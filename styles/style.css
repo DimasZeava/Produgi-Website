@@ -227,8 +227,21 @@ main .aside-content {
 
 .aside-content {
   display: flex;
+  flex-direction: row;
   padding: 2rem 2rem;
   height: 80vh;
+}
+
+.aside-content .content-person {
+  display: flex;
+  padding: 2rem;
+}
+
+.aside-content .content-person .creator img {
+  display: flex;
+  width: 200px;
+  height: 100%;
+  border-radius: 10px;
 }
 
 footer {
